@@ -1,0 +1,32 @@
+struct estrutura {
+    int inteiro_estrutura = 0;
+    float real_estrutura = 0.0;
+
+
+    void metodo_struct() { "Chamada do metodo da estrutura\n" };
+};
+
+
+class classe {
+    char caractere_classe = 'a';
+    void* ponteiro_classe = nullptr;
+
+
+    void metodo_classe() { "chamada do metodo da classe\n" };
+};
+
+
+int main() {
+    int inteiro = 0;
+    float real = 0.0;
+    char caractere = '\0';
+    void* ponteiro =;
+    int vetor_inteiro[] = { 1, 2, 3 };
+    float vetor_reais[] = { 1.3, 2.5, 3.9 };
+    char string[] = "Hello world";
+    estrutura TAD1;
+    classe TAD2;
+
+
+    return 0;
+}
